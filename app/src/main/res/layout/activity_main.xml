@@ -8,14 +8,26 @@
     tools:context="com.hckim.myapplication.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#9f5555"
         android:textSize="48sp"
         android:text="Hello" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#9f5555"
+        android:textSize="48sp"
+        android:text="World" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#9f5555"
         android:textSize="48sp"
         android:text="World" />
 
